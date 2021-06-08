@@ -62,8 +62,8 @@ const ButtonLink = styled.a`
 const StyledButton = styled(ButtonLink)`
   display: flex;
   background-color: ${theme.primary};
-
-  padding: 30px 60px !important;
+  border-radius: 3px;
+  padding: 10px 30px !important;
   justify-content: center;
   transition: color 2.2s !important;
   cursor: pointer;
@@ -94,7 +94,7 @@ const Star = styled.div`
   animation: ${rotate360} 2s linear infinite;
 `;
 const StyledCard = styled(Card)`
-  min-height: 200px !important;
+  min-height: 100px !important;
   margin-bottom: 10px !important;
   background: #b8c2df !important;
 
